@@ -3,18 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EmiSyuwaSpace - テスト公開</title>
+    <title>手話習得の真実 | EmiSyuwaSpace</title>
     <style>
-        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f9f9f9; }
-        .card { text-align: center; padding: 20px; background: white; border-radius: 10px; shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        h1 { color: #333; }
-        p { color: #666; }
+        body { font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif; margin: 0; color: #333; line-height: 1.8; background-color: #fffaf0; }
+        .container { max-width: 600px; margin: 0 auto; background-color: #fff; min-height: 100vh; border-left: 1px solid #eee; border-right: 1px solid #eee; }
+        
+        .top-notice { background: #d32f2f; color: #fff; text-align: center; padding: 12px; font-size: 13px; font-weight: bold; }
+        
+        .hero { padding: 40px 20px; text-align: center; background: #fff; }
+        .hero p { color: #d32f2f; font-weight: bold; margin-bottom: 5px; }
+        .hero h1 { font-size: 24px; margin: 0; line-height: 1.5; color: #1a1a1a; }
+
+        /* 動画・画像エリア */
+        .visual-box { width: 100%; aspect-ratio: 16 / 9; background: #000; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; color: #fff; }
+
+        .content { padding: 30px 25px; }
+        .point-text { font-size: 18px; font-weight: bold; color: #d32f2f; text-align: center; margin-bottom: 20px; }
+        .highlight { background: linear-gradient(transparent 70%, #ffdf7e 0%); font-weight: bold; }
+
+        /* 悩みセクション */
+        .check-list { background: #fdf2f2; padding: 25px; border-radius: 15px; margin: 25px 0; }
+        .check-list ul { list-style: none; padding: 0; margin: 0; }
+        .check-list li { padding-left: 30px; position: relative; margin-bottom: 12px; font-size: 15px; }
+        .check-list li::before { content: "×"; position: absolute; left: 0; color: #d32f2f; font-weight: bold; font-size: 20px; }
+
+        /* 教育への誘導 */
+        .promise-box { border: 2px solid #d32f2f; padding: 20px; border-radius: 10px; margin: 30px 0; text-align: center; }
+
+        /* CTA */
+        .cta-area { padding: 40px 20px; background: #fff1f1; text-align: center; position: sticky; bottom: 0; border-top: 1px solid #ffdada; }
+        .btn-line { display: block; background-color: #06C755; color: white; text-decoration: none; padding: 22px 10px; border-radius: 50px; font-weight: bold; font-size: 19px; box-shadow: 0 5px 0 #05a346; transition: 0.2s; }
+        .btn-line:active { transform: translateY(3px); box-shadow: none; }
+        .btn-sub { display: block; font-size: 13px; color: #d32f2f; margin-bottom: 10px; font-weight: bold; }
+
+        .footer { padding: 40px 20px; font-size: 11px; color: #888; text-align: center; }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>EmiSyuwaSpaceへようこそ！</h1>
-        <p>GitHubを活用した、新しい仕組みの第一歩です。</p>
+    <div class="top-notice">【期間限定】11年間の集大成・集中レッスンを無料公開中</div>
+
+    <div class="container">
+        <div class="hero">
+            <p>手話を習得したいあなたへ</p>
+            <h1>単語を「覚える」のはもうやめてください。<br>会話ができない原因は<br><span style="color:#d32f2f;">「上達の順番」</span>にありました。</h1>
+        </div>
+
+        <div class="visual-box">
+             【手話の壁を壊す「順番」の解説動画】
+        </div>
+
+        <div class="content">
+            <div class="point-text">なぜ、何年通っても<br>「聞き取れない・話せない」のか？</div>
+            
+            <p>それは、日本人が英語を習得できない理由と同じです。<br>脳が「日本語のまま」で手話をしようとしているから。</p>
+
+            <div class="check-list">
+                <ul>
+                    <li>単語は知っているのに、文章になると出てこない</li>
+                    <li>ろう者の手話が「速すぎて」理解できない</li>
+                    <li>「何て言えばいい？」と頭の中で翻訳してしまう</li>
+                </ul>
+            </div>
+
+            <p>大切なのは<span class="highlight">「覚える→作る」</span>ではなく、<br>ネイティブが使う<span class="highlight">「真似る→聞く」</span>のサイクルを脳に作ること。</p>
+
+            <div class="promise-box">
+                <strong>10日間の無料LINEレッスン</strong><br>
+                11年・2000人以上を指導して辿り着いた<br>「ろう思考」へのルートを全公開します。
+            </div>
+
+            <p style="font-size: 15px;">※7日目には、私が長年かけて体系化した<span class="highlight">「あるバイブル」</span>の存在についても、本気の方にだけお話しします。</p>
+        </div>
+
+        <div class="cta-area">
+            <span class="btn-sub">＼ 脳を「手話モード」に切り替える ／</span>
+            <a href="https://lin.ee/9Eup78A" class="btn-line">
+                10日間の無料レッスンを受講する
+            </a>
+        </div>
+
+        <div class="footer">
+            <a href="#" style="color:#888;">特定商取引法に基づく表記</a> | <a href="#" style="color:#888;">プライバシーポリシー</a><br><br>
+            © EmiSyuwaSpace
+        </div>
     </div>
 </body>
 </html>
